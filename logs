@@ -1,0 +1,32 @@
+2017-07-22T21:17:51.738Z - debug: [crypto_ecdsa_aes]: constructor, keySize: 256
+2017-07-22T21:17:51.740Z - debug: [crypto_ecdsa_aes]: Hash algorithm: SHA2, hash output size: 256
+2017-07-22T21:17:51.822Z - debug: [utils.CryptoKeyStore]: CryptoKeyStore, constructor - start
+2017-07-22T21:17:51.823Z - debug: [utils.CryptoKeyStore]: constructor, no super class specified, using config: fabric-client/lib/impl/FileKeyValueStore.js
+2017-07-22T21:17:51.827Z - debug: [crypto_ecdsa_aes]: constructor, keySize: 256
+2017-07-22T21:17:51.828Z - debug: [crypto_ecdsa_aes]: Hash algorithm: SHA2, hash output size: 256
+2017-07-22T21:17:51.828Z - debug: [utils.CryptoKeyStore]: CryptoKeyStore, constructor - start
+2017-07-22T21:17:51.828Z - debug: [utils.CryptoKeyStore]: constructor, no super class specified, using config: fabric-client/lib/impl/FileKeyValueStore.js
+2017-07-22T21:17:51.829Z - debug: [crypto_ecdsa_aes]: constructor, keySize: 256
+2017-07-22T21:17:51.830Z - debug: [crypto_ecdsa_aes]: Hash algorithm: SHA2, hash output size: 256
+2017-07-22T21:17:51.830Z - debug: [utils.CryptoKeyStore]: CryptoKeyStore, constructor - start
+2017-07-22T21:17:51.830Z - debug: [utils.CryptoKeyStore]: constructor, no super class specified, using config: fabric-client/lib/impl/FileKeyValueStore.js
+2017-07-22T21:17:52.187Z - info: [Server]: Tristar-POC-1 RESTful API server started on: 4000
+Db.prototype.authenticate method will no longer be available in the next major release 3.x as MongoDB 3.6 will only allow auth against users in the admin db and will no longer allow multiple credentials on a socket. Please authenticate using MongoClient.connect with auth credentials.
+2017-07-22T21:17:52.218Z - info: [Server]: Connection with MongoDB installed
+2017-07-22T21:19:55.467Z - debug: [NotificationsController]:  getNotificationsCount executed for 5973a0187ab0eb07958a763e
+2017-07-22T21:19:57.986Z - debug: [NotificationsController]:  getNotificationsCount executed for 5973a0187ab0eb07958a763e
+2017-07-22T21:20:15.010Z - debug: [NotificationsController]:  getNotificationsCount executed for 5973a0187ab0eb07958a763e
+2017-07-22T21:20:18.230Z - debug: [NotificationsController]:  getNotificationsCount executed for 5973a0187ab0eb07958a763e
+2017-07-22T21:28:01.050Z - debug: [NotificationsController]:  getNotificationsCount executed for 5973a0187ab0eb07958a763e
+2017-07-22T21:28:07.019Z - debug: [PreOrdersController]:  getPreorders executed
+2017-07-22T21:28:07.306Z - debug: [NotificationsController]:  getNotificationsCount executed for 5973a0187ab0eb07958a763e
+2017-07-22T21:29:32.750Z - debug: [PreOrdersController]:  getPreorders executed
+2017-07-22T21:29:32.940Z - debug: [NotificationsController]:  getNotificationsCount executed for 5973a0187ab0eb07958a763e
+2017-07-22T21:29:36.719Z - debug: [NotificationsController]:  getNotificationsCount executed for 5973a0187ab0eb07958a763e
+2017-07-22T21:29:38.461Z - debug: [NotificationsController]:  getNotificationsCount executed for 5973a0187ab0eb07958a763e
+2017-07-22T21:29:39.241Z - debug: [UsersController]:  getCompanyUsers executed with: 5973a0187ab0eb07958a7639
+2017-07-22T21:29:39.243Z - debug: [UsersController]:  getCompanyUsers executed with: 5973a0187ab0eb07958a763a
+2017-07-22T21:29:39.413Z - debug: [UsersController]:  getCompanyUsers executed with: 5973a0187ab0eb07958a7639
+2017-07-22T21:29:39.574Z - debug: [UsersController]:  getCompanyUsers executed with: 5973a0187ab0eb07958a7639
+2017-07-22T21:29:40.608Z - debug: [NotificationsController]:  getNotificationsCount executed for 5973a0187ab0eb07958a763e
+2017-07-22T21:29:40.767Z - debug: [PreOrdersController]:  getPreorders executed

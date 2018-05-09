@@ -1,0 +1,19 @@
+2017-07-22T21:33:52.966Z - debug: [crypto_ecdsa_aes]: constructor, keySize: 256
+2017-07-22T21:33:52.968Z - debug: [crypto_ecdsa_aes]: Hash algorithm: SHA2, hash output size: 256
+2017-07-22T21:33:53.046Z - debug: [utils.CryptoKeyStore]: CryptoKeyStore, constructor - start
+2017-07-22T21:33:53.047Z - debug: [utils.CryptoKeyStore]: constructor, no super class specified, using config: fabric-client/lib/impl/FileKeyValueStore.js
+2017-07-22T21:33:53.051Z - debug: [crypto_ecdsa_aes]: constructor, keySize: 256
+2017-07-22T21:33:53.051Z - debug: [crypto_ecdsa_aes]: Hash algorithm: SHA2, hash output size: 256
+2017-07-22T21:33:53.052Z - debug: [utils.CryptoKeyStore]: CryptoKeyStore, constructor - start
+2017-07-22T21:33:53.052Z - debug: [utils.CryptoKeyStore]: constructor, no super class specified, using config: fabric-client/lib/impl/FileKeyValueStore.js
+2017-07-22T21:33:53.053Z - debug: [crypto_ecdsa_aes]: constructor, keySize: 256
+2017-07-22T21:33:53.053Z - debug: [crypto_ecdsa_aes]: Hash algorithm: SHA2, hash output size: 256
+2017-07-22T21:33:53.053Z - debug: [utils.CryptoKeyStore]: CryptoKeyStore, constructor - start
+2017-07-22T21:33:53.053Z - debug: [utils.CryptoKeyStore]: constructor, no super class specified, using config: fabric-client/lib/impl/FileKeyValueStore.js
+2017-07-22T21:33:53.408Z - info: [Server]: Tristar-POC-1 RESTful API server started on: 4000
+Db.prototype.authenticate method will no longer be available in the next major release 3.x as MongoDB 3.6 will only allow auth against users in the admin db and will no longer allow multiple credentials on a socket. Please authenticate using MongoClient.connect with auth credentials.
+2017-07-22T21:33:53.435Z - info: [Server]: Connection with MongoDB installed
+2017-07-22T21:34:00.898Z - debug: [ValidateRequest]:  Validate request skipped because of /api/v1/auth
+2017-07-22T21:34:00.901Z - debug: [AuthController]:  auth executed with args { invitation_code: 'invitation_code_ws',
+  public_key: 'baydenpublickey' }
+2017-07-22T21:34:00.922Z - debug: [AuthController]:  Successfully authorized

@@ -1,0 +1,80 @@
+[
+  {
+    "group": "admin",
+    "permissions": [
+      {
+        "resource": "*",
+        "methods": "*",
+        "action": "allow"
+      }
+    ]
+  },
+  {
+    "group": "account_manager",
+    "permissions": [
+      {
+        "resource": "*",
+        "methods": [
+          "GET",
+          "POST"
+        ],
+        "action": "allow"
+      }
+    ]
+  },
+  {
+    "group": "warehouse_supervisor",
+    "permissions": [
+      {
+        "resource": "*",
+        "methods": [
+          "GET",
+          "POST"
+        ],
+        "action": "allow"
+      }
+    ]
+  },
+  {
+    "group": "fork_lift_operator",
+    "permissions": [
+      {
+        "resource": "*",
+        "methods": "*",
+        "action": "allow"
+      }
+    ]
+  },
+  {
+    "group": "driver",
+    "permissions": [
+      {
+        "resource": "*",
+        "methods": [
+          "GET"
+        ],
+        "action": "allow"
+      }
+    ]
+  },
+  {
+    "group": "sales_manager",
+    "permissions": [
+      {
+        "resource": "*",
+        "methods": "*",
+        "action": "allow"
+      }
+    ]
+  },
+  {
+    "group": "guest",
+    "permissions": [
+      {
+        "resource": "*",
+        "methods": "*",
+        "action": "deny"
+      }
+    ]
+  }
+]

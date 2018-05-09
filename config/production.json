@@ -1,0 +1,64 @@
+{
+   "ENV":"PRODUCTION",
+  "rabbitHost": "amqp://localhost",
+  "rabbitChannel": "hyperledger-channel",
+  "host": "81.171.24.179",
+  "port": "4000",
+  "db": "mongodb://admin:_Admin123@95.211.244.190:27017/tristar-poc?authSource=admin",
+  "jwt_expiretime": "36000000",
+  "channelName": "mainchannel",
+  "chaincodeVersion": "1.0",
+  "GOPATH": "../../../test/fixtures",
+  "chaincodePath": "github.com/hyperledger/fabric/examples/chaincode/go/user_chaincode",
+  "keyValueStore": "/tmp/fabric-client-kvs",
+  "orgsList": [
+    "Tristar",
+    "Agility",
+    "BlockGemini"
+  ],
+  "eventWaitTime": "30000",
+  "invokeQueryFcnName": "invoke",
+  "network_config_file":"network-config-production",
+  "tristar_peer_url": "81.171.29.169",
+  "orderer": "grpcs://81.171.29.169:7050",
+  "users": [
+    {
+      "username": "admin",
+      "secret": "adminpw"
+    }
+  ],
+  "email": {
+    "username": "sendermailid",
+    "password": "senderpassword"
+  },
+  "secret": "blockgeminiMW",
+  "ocrURL": "http://178.62.216.26:8080/doOCR",
+
+  "pg_user": "postgres",
+  "pg_database": "postgres",
+  "pg_password": "postgres",
+  "pg_host": "81.171.2.172",
+  "pg_port": 5432,
+  "pg_max": 1000,
+  "pg_idleTimeoutMillis": 30000,
+
+  "ACTIONS_CHAINCODE": "actions_chaincode",
+  "COMMODITIES_CHAINCODE":"commodities_chaincode",
+  "COMPANIES_CHAINCODE": "companies_chaincode",
+  "DELIVERY_VOUCHERS_CHAINCODE": "delivery_vouchers_chaincode",
+  "LOCATIONS_CHAINCODE": "locations_chaincode",
+  "LOTS_CHAINCODE": "lots_chaincode",
+  "ORDER_TRANSPORTATIONS_CHAINCODE": "order_transportations_chaincode",
+  "ORDER_WAREHOUSES_CHAINCODE": "order_warehouses_chaincode",
+  "PICK_LISTS_CHAINCODE": "pick_lists_chaincode",
+  "PREORDERS_CHAINCODE": "preorders_chaincode",
+  "PRODUCTS_CHAINCODE": "products_chaincode",
+  "STORAGES_CHAINCODE": "storages_chaincode",
+  "TRANSPORTATIONS_CHAINCODE": "transportations_chaincode",
+  "TRANSPORTATION_LOGS_CHAINCODE": "transportation_logs_chaincode",
+  "TRUCK_MAKES_CHAINCODE": "truck_makes_chaincode",
+  "TRUCK_MODELS_CHAINCODE": "truck_models_chaincode",
+  "TRUCKS_CHAINCODE": "trucks_chaincode",
+  "USERS_CHAINCODE": "users_chaincode",
+  "WAREHOUSES_CHAINCODE": "warehouses_chaincode"
+}
